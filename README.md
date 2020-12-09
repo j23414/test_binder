@@ -6,7 +6,7 @@ Testing Jupyter Notebook binder
 
 ## Introduction
 
-Bioinformatic analysis pipelines written in python can be shared in an interactive document called a Jupyter Notebook. Notebooks generally have two sections:
+Bioinformatic analysis pipelines written in python can be shared in an interactive document called a Jupyter Notebook. Notebook sections are usually one of two types:
 
 * Markdown - text/documentation of your analysis
 * Code - Python code chunks that run the analysis
@@ -23,16 +23,30 @@ To demonstrate these benefits, this tutorial will walk you through:
 
 ## Step 1: GitHub
 
-You will need a GitHub account (register here). From there, create a new github repo:
+We will assume you have a GitHub account. If not, please register a free account.
 
- 
+1. Visit Github - [https://github.com/](https://github.com/)
+2. Create a `jupyter_binder` repository
+
+  ![Jupyter Repo](imgs/Jupyter_repo.png)
+
+3. Clone the repo to a local computer
+
+  ![git clone](imgs/clone.png)
+
+  ```
+  git clone https://github.com/YOUR_USER_NAME/jupyter_binder.git
+  cd jupyter_binder
+  ```
+
+## Step 2: Create a minimal Jupyter Notebook
 
 
 
 ## Setup
 
 ```bash
-cd test_binder/tutorials
+cd jupyter_binder
 conda env create -f environment.yml
 ```
 
