@@ -1,8 +1,33 @@
-# test_binder
+# Sharing Jupyter Notebooks via MyBinder
 
 Testing Jupyter Notebook binder
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/j23414/test_binder.git/HEAD?filepath=tutorials)
+
+## Introduction
+
+Bioinformatic analysis pipelines written in python can be shared in an interactive document called a Jupyter Notebook. Notebooks generally have two sections:
+
+* Markdown - text/documentation of your analysis
+* Code - Python code chunks that run the analysis
+
+![JupyterNotebook](imgs/JupyterNtbk.png)
+
+Providing one document (notebook) of executable code and documentation eases reproducible research, where other scientists can verify, understand, and possibly extend your analysis.
+
+To demonstrate these benefits, this tutorial will walk you through:
+
+* creating a minimal Jupyter Notebook
+* pushing it to a public github
+* and linking the notebook to a mybinder.org to be shared
+
+## Step 1: GitHub
+
+You will need a GitHub account (register here). From there, create a new github repo:
+
+ 
+
+
 
 ## Setup
 
