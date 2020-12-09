@@ -2,6 +2,8 @@
 
 Testing Jupyter Notebook binder
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/j23414/test_binder.git/HEAD?filepath=tutorials)
+
 ## Setup
 
 ```bash
@@ -33,3 +35,16 @@ conda deactivate             # stop
 conda activate ntbk_env
 jupyter notebook               # Starts server
 ```
+
+Create a Jupyter Notebook via `New/Python 3`
+
+![Jupyter Local](imgs/StartNotebook.png)
+
+## Link to binder
+
+* Visit [https://mybinder.org/](https://mybinder.org/)
+* Input the github name and any subfolder if ipynb files are in a subfolder
+
+![My Binder](imgs/MyBinder.png)
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/j23414/test_binder.git/HEAD?filepath=tutorials)
