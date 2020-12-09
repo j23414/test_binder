@@ -24,7 +24,7 @@ dependencies:
   - jupyter
 ```
 
-``{bash}
+```bash
 conda activate ntbk_env      # start
 conda deactivate             # stop
 ```
@@ -48,3 +48,7 @@ Create a Jupyter Notebook via `New/Python 3`
 ![My Binder](imgs/MyBinder.png)
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/j23414/test_binder.git/HEAD?filepath=tutorials)
+
+## Python Module dependencies
+
+MyBinder will look for a `environment.yml` or a `requirements.txt` to find a list of python modules to install. This file needs to be at the base of the github repo (can't find it inside of subfolder `tutorials`)
